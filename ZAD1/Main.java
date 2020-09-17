@@ -1,10 +1,7 @@
 package com.company;
 
 import com.company.creatures.Animal;
-import com.company.creatures.FarmAnimal;
 import com.company.creatures.Human;
-import com.company.creatures.Pet;
-import com.company.devices.*;
 
 public class Main {
 
@@ -31,10 +28,6 @@ public class Main {
 
         System.out.println("...............................................");
 
-
-        Device device = new Phone();
-
-        device.turnOn();
 
         Phone phone = new Phone();
         phone.setModel("ajfon ");
